@@ -1,0 +1,62 @@
+.heading{
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  overflow-x:auto;
+   min-height: 100vh;
+  /* font-size: calc(10px + 2vmin); */
+  color: white
+}
+
+.loadings{
+ width: 100px;
+ height: 100px;
+
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  white-space: nowrap
+}
+
+tr:nth-child(even) {background-color: #6b798f;}
+
+#search-input{
+  float: right;
+  margin-right: 10px;
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
+
+
+.pagination{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+   justify-content: space-around; 
+   color: aqua;
+}
+
+.paginate{
+  max-width: 300px;
+ margin: 0 auto;
+
+}
+a{
+  text-decoration: none;
+  color: aqua;
+}
